@@ -1,12 +1,12 @@
 /* Change the sidebar color*/
 [data-testid=stSidebar] {
-  background-image: linear-gradient(#000395,#FFD4DD);
+  background-image: linear-gradient(#305016,#c9e9af);
 }
 
 /* Style hyperlinks*/
 a{
   display: block; 
-  color:#2e9aff !important;
+  color:#305016 !important;
   font-weight: bold;
 }
 

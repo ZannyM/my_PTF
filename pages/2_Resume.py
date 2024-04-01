@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-from constant import *
+from information import *
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -10,9 +10,7 @@ local_css("style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-st.title("📝 Resume")
-
-st.write("[Click here if it's blocked by your browser](https://cognitiveclass.ai/)")
+st.title("Resume")
 
 with open("images/resume.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')
