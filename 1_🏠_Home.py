@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from information import *
 from PIL import Image
 import base64
-import openai
+#import openai
 #from langchain_community.chat_models import ChatOpenAI
 import json
 
@@ -31,7 +31,7 @@ local_css("style/style.css")
 
 
 # Specify the local file path
-file_path = '/home/zannymaholobela/Downloads/Animation - 1711999303067.json'
+file_path = 'Animation - 1711999303067.json'
 
 # Read the contents of the local file
 with open(file_path, 'r') as file:

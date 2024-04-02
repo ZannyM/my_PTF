@@ -15,10 +15,10 @@ st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
 st.title("Hobbies")
 
-file_path_gym = '/home/zannymaholobela/Downloads/Animation - 1712058518157.json'
-file_path_reading = '/home/zannymaholobela/Downloads/Animation - 1712058793497.json'
-file_path_painting = '/home/zannymaholobela/Downloads/Animation - 1712059173535.json'
-file_path_travel = '/home/zannymaholobela/Downloads/Animation - 1712059539579.json'
+file_path_gym = 'Animation - 1712058518157.json'
+file_path_reading = 'Animation - 1712058793497.json'
+file_path_painting = 'Animation - 1712059173535.json'
+file_path_travel = 'Animation - 1712059539579.json'
 
 #read contents of local file
 with open(file_path_gym, 'r') as file:
