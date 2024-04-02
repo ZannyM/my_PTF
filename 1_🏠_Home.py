@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from information import *
 from PIL import Image
 import base64
-import openai
+#import openai
 #from langchain_community.chat_models import ChatOpenAI
 import json
 
