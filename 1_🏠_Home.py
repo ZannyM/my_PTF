@@ -3,12 +3,12 @@ import requests
 from streamlit_lottie import st_lottie
 from streamlit_timeline import timeline
 import streamlit.components.v1 as components
-from llama_index.core import GPTVectorStoreIndex, SimpleDirectoryReader, ServiceContext
+#from llama_index.core import GPTVectorStoreIndex, SimpleDirectoryReader, ServiceContext
 from information import *
 from PIL import Image
 import base64
 import openai
-from langchain_community.chat_models import ChatOpenAI
+#from langchain_community.chat_models import ChatOpenAI
 import json
 
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
