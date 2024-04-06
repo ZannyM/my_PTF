@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from information import *
 from PIL import Image
 import base64
-#import openai
+import openai
 #from langchain_community.chat_models import ChatOpenAI
 import json
 
@@ -83,17 +83,7 @@ with st.container():
     with col4:
         st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
  
-# ----------------- timeline ----------------- #
-with st.container():
-    st.markdown("""""")
-    st.subheader('Career Snapshot')
 
-    # load data
-    with open('example.json', "r") as f:
-        data = f.read()
-
-    # render timeline
-    timeline(data, height=400)
 
 # -----------------  My Personal Projects  -----------------  #
 with st.container():
