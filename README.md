@@ -1,6 +1,7 @@
 ## Getting Started : My_PTF
 This is my first portfolio project, developed using Python and Streamlit. It showcases my skills and provides an interactive experience through a variety of projects and examples I’ve built.
-Tech Stack
+
+## Tech Stack
 
     Python: Core language for all functionalities.
     Streamlit: Used for creating the interactive web application interface.
@@ -9,11 +10,11 @@ Tech Stack
 To run this Streamlit app locally, follow these steps:
 # Prerequisites
 
-  - Make sure you have Python and pip installed.
-Install the required packages by running:
-    pip install -r requirements.txt
-    pip install openai
-    pip install --upgrade streamlit
+- Make sure you have Python and pip installed.
+- Install the required packages by running:
+- pip install -r requirements.txt
+- pip install openai
+- pip install --upgrade streamlit
     
 
 # Running the App
